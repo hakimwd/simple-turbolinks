@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Turbolinks Testing</title>
+
+        <style>
+        body {
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        html {
+            height: 100%
+        }
+        .link {
+            background-color: whitesmoke;
+        }
+        .link a {
+            padding: 5px;
+        }
+        </style>
+    </head>
+
+    <body style="background-image:url('./images/image1.jpg')">
+        <div class="link">
+            <a href="./index.html">Index Page</a>
+            <a href="./city.html">City Page</a>
+        </div>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.3/turbolinks.js"></script>
+        <script>
+            Turbolinks.start();        
+        </script>
+    </body>
+
+</html>
